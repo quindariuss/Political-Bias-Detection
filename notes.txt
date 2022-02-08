@@ -1,0 +1,11 @@
+Got the data from Jerry Wei's Github
+> git@github.com:JerryWei03/NewB.git
+
+Removed to 0's from the front, I am guessing these are labels. 
+After doing this with sed, I will add my own labels to the set. 
+
+sed -i -e 's/^/__label__con/' quin.conservative.txt  
+
+That worked well. 
+
+
